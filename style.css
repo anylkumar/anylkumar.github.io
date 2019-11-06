@@ -1,0 +1,157 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #f8f9fa;
+}
+
+#nav1 .nav-link
+{
+	font-weight: 700;
+	font-size: 0.8rem;
+	
+}
+
+#nav2
+{
+	font-weight: 700;
+
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: red;
+}
+
+#nav1 .nav-link:hover
+{
+	color: red;
+}
+
+#nav2 .nav-link:hover
+{
+	color: red;
+}
+
+#link-3 .nav-link
+{
+	background-color: white;
+	color: black;
+	font-size: 0.9rem;
+	font-weight: bolder;
+	margin: 1px;
+	border: 1px solid #e9ecef;
+}
+
+
+#link-3 .nav-link:hover
+{
+	color: red;
+}
+
+.hl
+{
+	width: 100%;
+	height: 1px;
+	background-color: #e9ecef;
+}
+.jumbotron{
+	background-image: url(./img/bg3.jpg);
+	background-size: cover;
+	color: black;
+
+}
+
+
+
+span{
+	color: red;
+}
+
+#Lsec
+{
+	background: #e84d1c;
+	color: white;
+}
+
+#Lsec .fa
+{
+
+	font-size: 3rem;
+	height: auto;
+	border: 3px solid white;
+	border-radius: 50%;
+	padding: 10px;
+	float:right;
+
+}
+
+footer
+{
+	color: rgb(176, 176, 176);
+    background: rgb(49, 48, 48);
+}
+
+footer a
+{
+
+	color: #57c8eb;
+}
+footer a:hover
+{
+
+	color: #e02222;
+}
+
+footer .bFooter i
+{
+	padding: 2px;
+	font-size: 2.0rem;
+	color: rgb(49, 48, 48);
+	background-color:#fff;
+}
+
+footer .bFooter i:hover
+{
+	background-color: #007bff;
+	
+}
+
+footer form h2,.form-control, .btn
+{
+	font-size: 0.9rem;
+
+}
+footer form label
+{
+	font-size: 1.3rem ;
+
+}
+
+
+@media(max-width:768px ){
+	#jumbo h1{
+		font-size: 3.5rem;
+	}
+	#Lsec .blocks
+	{
+		border: 1px solid white;
+
+		
+	}
+
+	#brands img
+	{
+		width: 16%;
+
+	}
+
+	#Lfooter h2
+	{
+		font-size: 1.9rem;
+	}
+
+
+footer form h2,.form-control, .btn
+{
+	font-size: 0.9rem;
+
+}
+}
